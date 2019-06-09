@@ -28,5 +28,6 @@ for k=1:n
     omega=V(:,k)/norm(V(:,k),2);
     H=eye(m)-2*(omega*omega');
     Q=Q*H;
+%     disp(A);
 end
 R=A;

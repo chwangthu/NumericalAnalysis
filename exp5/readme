@@ -1,0 +1,2 @@
+文件夹1是第一题代码，运行main.m可直接求A,B特征值
+文件夹3and5是3和5题代码，my_qr.m是qr算法，qr_eig不带原点位移，qr_offset_eig带原点位移，运行main.m得结果

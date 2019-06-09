@@ -16,5 +16,6 @@ for i=1:iter
     u=A(n,n);
     [q,r]=my_qr(A-u*eye(n,n));
     A=r*q+u*eye(n,n);
+    disp(A);
 end
 l(num,1)=A(1,1);
